@@ -1,0 +1,274 @@
+body{
+    padding-top:100px;
+    margin-top: 100px;
+  }
+  .final-nav{
+    background-color: #eee;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 5555;
+  }
+  
+  .nav-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  nav .logo img {
+    width: 50px;
+    height: 40px;
+    border-radius:50% ;
+    margin: 0 auto;
+
+  }
+  .final-nav ul  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  .final-nav ul li {
+    list-style: none;
+  }
+  .final-nav ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-weight:500;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#12101e;
+    padding:0 25px;
+    font-size:16px;
+    letter-spacing:1px;
+  
+  }
+  
+  /* .back{
+      display: flex;
+      width: 100%;
+      position: absolute;
+      left: -40px;
+      top:30px;
+      text-align:center;
+    }
+    .back img{
+      position: absolute;
+      left:50px;
+      top: -15px;
+      border-radius: 90px; 
+      width:  80px;
+      height: 40px;
+      } */
+      /*** section****/
+      .container-section{
+        width: 80%;
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-around
+      }
+      .container-section img{
+        width: 80%;
+        border-radius: 50%;
+      }
+      .contain-img{
+        width: 40%;
+      }
+      
+      .contain-parag{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      /*** section **/
+      .footer {
+        border-top: 1px solid rgba(114, 112, 112, 0.433);
+        width: 80%;
+        margin: auto;
+    
+      }
+      .footer .col {
+        width: 190px;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        padding: 0px 20px 20px 20px;
+      }
+      .footer .col h1 {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-size: 12px;
+        line-height: 17px;
+        padding: 20px 0px 5px 0px;
+        color: rgba(255,255,255,0.2);
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 0.250em;
+      }
+      .footer .col ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .footer .col ul li {
+        color: #999999;
+        font-size: 14px;
+        font-family: inherit;
+        font-weight: bold;
+        padding: 5px 0px 5px 0px;
+        cursor: pointer;
+        transition: .2s;
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+      }
+      .social ul li {
+        display: inline-block;
+        padding-right: 5px !important;
+      }
+      
+      .footer .col ul li:hover {
+        color: #ffffff;
+        transition: .1s;
+        -webkit-transition: .1s;
+        -moz-transition: .1s;
+      }
+      .clearfix {
+        clear: both;
+      }
+      @media only screen and (min-width: 1280px) {
+        .contain {
+          width: 1200px;
+          margin: 0 auto;
+        }
+      }
+      @media only screen and (max-width: 1139px) {
+        .contain .social {
+          width: 1000px;
+          display: block;
+        }
+        .social h1 {
+          margin: 0px;
+        }
+      }
+      @media only screen and (max-width: 950px) {
+        .footer .col {
+          width: 33%;
+        }
+        .footer .col h1 {
+          font-size: 14px;
+        }
+        .footer .col ul li {
+          font-size: 13px;
+        }
+      }
+      @media only screen and (max-width: 500px) {
+          .footer .col {
+            width: 50%;
+          }
+          .footer .col h1 {
+            font-size: 14px;
+          }
+          .footer .col ul li {
+            font-size: 13px;
+          }
+      }
+      @media only screen and (max-width: 340px) {
+        .footer .col {
+          width: 100%;
+        }
+      }
+      /*** footer icons **/ 
+      .rounded-social-buttons {
+        text-align: center;
+        /* position: fixed; */
+        
+        width: fit-content;
+        margin: 50px auto;
+      }
+      .rounded-social-buttons .social-button {
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 3.125rem;
+      height: 3.125rem;
+      border: 0.125rem solid transparent;
+      padding: 0;
+      text-decoration: none;
+      text-align: center;
+      color: #fefefe;
+      font-size: 1.5625rem;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 1.6875rem;
+      transition: all 0.5s ease;
+      margin-right: 0.25rem;
+      margin-bottom: 0.25rem;
+      }
+      
+      .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+      -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+              transform: rotate(360deg);
+      }
+      
+      .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+      font-size: 25px;
+      }
+      
+      .rounded-social-buttons .social-button.facebook {
+      background: #3b5998;
+      }
+      
+      .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+      color: #3b5998;
+      background: #fefefe;
+      border-color: #3b5998;
+      }
+      
+      .rounded-social-buttons .social-button.twitter {
+      background: #55acee;
+      }
+      
+      .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+      color: #55acee;
+      background: #fefefe;
+      border-color: #55acee;
+      }
+      
+      .rounded-social-buttons .social-button.linkedin {
+      background: #007bb5;
+      }
+      
+      .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+      color: #007bb5;
+      background: #fefefe;
+      border-color: #007bb5;
+      }
+      
+      .rounded-social-buttons .social-button.youtube {
+      background: #bb0000;
+      }
+      
+      .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+      color: #bb0000;
+      background: #fefefe;
+      border-color: #bb0000;
+      }
+      
+      .rounded-social-buttons .social-button.instagram {
+      background: #125688;
+      }
+      
+      .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+      color: #125688;
+      background: #fefefe;
+      border-color: #125688;
+      }
